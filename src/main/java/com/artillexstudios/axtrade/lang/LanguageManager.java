@@ -70,6 +70,7 @@ public class LanguageManager {
         }
         client.close();
 
+        client.close();
     }
 
     public static String getTranslated(@NotNull Material material) {
